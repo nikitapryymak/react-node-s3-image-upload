@@ -1,6 +1,7 @@
 import React from 'react';
-import { ChakraProvider, Box, theme } from '@chakra-ui/react';
+import { ChakraProvider, Box } from '@chakra-ui/react';
 import Profile from './components/Profile';
+import theme from './config/theme';
 
 function App() {
   return (
